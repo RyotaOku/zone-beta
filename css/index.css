@@ -1,0 +1,153 @@
+video {
+    position: absolute;
+    top: 170px;
+    display: block;
+}
+
+.mainVisual {
+    position: absolute;
+    top: 170px;
+    display: block;
+}
+
+#main {
+    margin: 880px 10% 0 10%;
+    height: 1750px;
+}
+
+.mainTitle {
+    font-size: 3em;
+    text-align: center;
+    margin: 20px 0 40px 00px;
+    float: none;
+}
+
+.mainVisual {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.leftPic {
+    float: left;
+    margin-top: 100px;
+}
+
+.leftBox {
+    width: 30%;
+    height: 300px;
+    float: left;
+    margin-left: 50px;
+    margin-top: 190px;
+}
+
+.bn1 {
+    display: inline-block;
+    padding: 0.6em 1.7em;
+    border: 0.1em solid #ffffff;
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 0.12em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    color: #ffffff;
+    text-align: center;
+    transition: all 0.2s;
+  }
+  
+  .bn1:hover {
+    color: #000000;
+    background-color: #ffffff;
+  }
+
+.leftBox h3,
+.rightBox h3 {
+    font-size: 1.9em;
+    margin: 10px 0;
+}
+
+.leftPic {
+    position: relative;
+    overflow: hidden;
+}
+
+.leftPic::before,
+.leftPic::after {
+    content: "";
+    display: block;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    margin: auto;
+    transition: .3s cubic-bezier(0.45, 0, 0.55, 1);
+    opacity: 0;
+}
+
+.leftPic::before {
+    background: rgba(234, 234, 234, 0.4);
+    width: 100%;
+    height: 100%;
+}
+
+.leftPic::after {
+    color: #000;
+    content: "こんにちはこんばんは";
+    font-size: 22px;
+    font-weight: bold;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+    right: 0;
+}
+
+.leftPic:hover::before,
+.leftPic:hover::after {
+    opacity: 1;
+}
+
+
+.leftBox p,
+.rightBox p {
+    font-size: 1.15em;
+    margin: 10px 0;
+    line-height: 1.5;
+}
+
+.rightPic {
+    float: right;
+    margin-top: 100px;
+}
+
+.rightBox {
+    width: 500px;
+    height: 300px;
+    float: right;
+    margin-right: 50px;
+    margin-top: 190px;
+}
+
+#main2 {
+    margin: 380px 200px 0 200px;
+    border: tomato solid 1px;
+}
+
+.two {
+    font-size: 1.0em;
+    font-weight: bold;
+    padding-right: 0.5em;
+}
+
+.floor::first-letter {
+    font-size: 1.5em;
+    padding-right: 0.1em;
+}
+
+.floor {
+    width: 800px;
+    height: 70px;
+    background: #a7d4fa;
+    font-size: 2em;
+}
